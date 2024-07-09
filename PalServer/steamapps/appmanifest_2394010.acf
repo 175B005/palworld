@@ -1,0 +1,41 @@
+"AppState"
+{
+	"appid"		"2394010"
+	"Universe"		"1"
+	"name"		"Palworld Dedicated Server"
+	"StateFlags"		"4"
+	"installdir"		"PalServer"
+	"LastUpdated"		"1707568469"
+	"SizeOnDisk"		"2260368082"
+	"StagingSize"		"0"
+	"buildid"		"13378465"
+	"LastOwner"		"76561199058344614"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"1728631632"
+	"BytesDownloaded"		"1728631632"
+	"BytesToStage"		"2260368082"
+	"BytesStaged"		"2260368082"
+	"TargetBuildID"		"13378465"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1006"
+		{
+			"manifest"		"4884950798805348056"
+			"size"		"73781292"
+		}
+		"2394012"
+		{
+			"manifest"		"6370735655629434989"
+			"size"		"2186586790"
+		}
+	}
+	"UserConfig"
+	{
+	}
+	"MountedConfig"
+	{
+	}
+}
