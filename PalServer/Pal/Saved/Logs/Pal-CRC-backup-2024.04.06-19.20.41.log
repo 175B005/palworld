@@ -1,0 +1,45 @@
+﻿Log file open, 04/07/24 04:20:41
+LogPakFile: Display: Found Pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak.
+LogPakFile: Display: Mounted Pak file '../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak', mount point: '../../../Engine/'
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Build: ++UE5+Release-5.1-CL-0
+LogInit: Engine Version: 5.1.1-0+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-0+++UE5+Release-5.1
+LogInit: Net CL: 0
+LogInit: OS: CentOS Stream 9 (5.14.0-412.el9.x86_64), CPU: Intel Xeon Processor (Icelake), GPU: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+LogInit: Compiled (64-bit): Mar 26 2024 22:57:15
+LogInit: Compiled with Clang: 13.0.1 (https://github.com/llvm/llvm-project 75e33f71c2dae584b13a7d1186ae0a038ba98838)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line:  -Abslog="/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Logs/Pal-CRC.log" -Unattended -ImplicitSend "/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-1788-9CA7197455374B09AA0720F572D356D6/" -unattended
+LogInit: Base Directory: /home/steam/Steam/steamapps/common/PalServer/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.04.06-19.20.41:555][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.04.06-19.20.41:556][  0]LogInit: Unix hardware info:
+[2024.04.06-19.20.41:556][  0]LogInit:  - we are the first instance of this executable
+[2024.04.06-19.20.41:556][  0]LogInit:  - this process' id (pid) is 1848, parent process' id (ppid) is 1788
+[2024.04.06-19.20.41:556][  0]LogInit:  - we are not running under debugger
+[2024.04.06-19.20.41:556][  0]LogInit:  - machine network name is 'vm-21068fbb-1b.novalocal'
+[2024.04.06-19.20.41:558][  0]LogInit:  - user name is 'steam' (steam)
+[2024.04.06-19.20.41:558][  0]LogInit:  - we're logged in locally
+[2024.04.06-19.20.41:558][  0]LogInit:  - we're running with rendering
+[2024.04.06-19.20.41:558][  0]LogInit:  - CPU: GenuineIntel 'Intel Xeon Processor (Icelake)' (signature: 0x80660)
+[2024.04.06-19.20.41:558][  0]LogInit:  - Number of physical cores available for the process: 6
+[2024.04.06-19.20.41:558][  0]LogInit:  - Number of logical cores available for the process: 6
+[2024.04.06-19.20.41:558][  0]LogInit:  - Cache line size: 64
+[2024.04.06-19.20.41:558][  0]LogInit:  - GPU Brand Info: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+[2024.04.06-19.20.41:559][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.04.06-19.20.41:559][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2024.04.06-19.20.41:559][  0]LogInit:  - This is an internal build.
+[2024.04.06-19.20.41:559][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.04.06-19.20.41:559][  0]LogInit: Unix-specific commandline switches:
+[2024.04.06-19.20.41:559][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.04.06-19.20.41:559][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.04.06-19.20.41:559][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.04.06-19.20.41:559][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.04.06-19.20.41:559][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.04.06-19.20.41:559][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KS

@@ -1,0 +1,69 @@
+﻿Log file open, 03/03/24 08:06:23
+LogPakFile: Display: Found Pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak.
+LogPakFile: Display: Mounted Pak file '../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak', mount point: '../../../Engine/'
+LogInit: Build: ++UE5+Release-5.1-CL-0
+LogInit: Engine Version: 5.1.1-0+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-0+++UE5+Release-5.1
+LogInit: Net CL: 0
+LogInit: OS: CentOS Stream 9 (5.14.0-412.el9.x86_64), CPU: Intel Xeon Processor (Icelake), GPU: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+LogInit: Compiled (64-bit): Feb 12 2024 05:48:59
+LogInit: Compiled with Clang: 13.0.1 (https://github.com/llvm/llvm-project 75e33f71c2dae584b13a7d1186ae0a038ba98838)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line:  -Abslog="/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Logs/Pal-CRC.log" -Unattended -ImplicitSend "/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-3773-729AD352D7014B22B710E5F72F0F1403/" -unattended
+LogInit: Base Directory: /home/steam/Steam/steamapps/common/PalServer/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.03.02-23.06.23:431][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.03.02-23.06.23:432][  0]LogInit: Unix hardware info:
+[2024.03.02-23.06.23:432][  0]LogInit:  - we are the first instance of this executable
+[2024.03.02-23.06.23:432][  0]LogInit:  - this process' id (pid) is 3899, parent process' id (ppid) is 3773
+[2024.03.02-23.06.23:432][  0]LogInit:  - we are not running under debugger
+[2024.03.02-23.06.23:432][  0]LogInit:  - machine network name is 'vm-21068fbb-1b.novalocal'
+[2024.03.02-23.06.23:434][  0]LogInit:  - user name is 'steam' (steam)
+[2024.03.02-23.06.23:434][  0]LogInit:  - we're logged in locally
+[2024.03.02-23.06.23:434][  0]LogInit:  - we're running with rendering
+[2024.03.02-23.06.23:434][  0]LogInit:  - CPU: GenuineIntel 'Intel Xeon Processor (Icelake)' (signature: 0x80660)
+[2024.03.02-23.06.23:434][  0]LogInit:  - Number of physical cores available for the process: 6
+[2024.03.02-23.06.23:434][  0]LogInit:  - Number of logical cores available for the process: 6
+[2024.03.02-23.06.23:434][  0]LogInit:  - Cache line size: 64
+[2024.03.02-23.06.23:434][  0]LogInit:  - GPU Brand Info: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+[2024.03.02-23.06.23:434][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.03.02-23.06.23:434][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2024.03.02-23.06.23:434][  0]LogInit:  - This is an internal build.
+[2024.03.02-23.06.23:434][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.03.02-23.06.23:434][  0]LogInit: Unix-specific commandline switches:
+[2024.03.02-23.06.23:434][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.03.02-23.06.23:434][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.03.02-23.06.23:434][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.03.02-23.06.23:434][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.03.02-23.06.23:434][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.03.02-23.06.23:434][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2024.03.02-23.06.23:434][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2024.03.02-23.06.23:434][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2024.03.02-23.06.23:434][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2024.03.02-23.06.23:434][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2024.03.02-23.06.23:434][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2024.03.02-23.06.23:434][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2024.03.02-23.06.23:434][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2024.03.02-23.06.23:434][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7682 MB, 7867068 KB, 8055877632 bytes)
+[2024.03.02-23.06.23:434][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2024.03.02-23.06.23:434][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2024.03.02-23.06.23:434][  0]LogInit:  - PageSize 4096
+[2024.03.02-23.06.23:434][  0]LogInit:  - BinnedPageSize 65536
+[2024.03.02-23.06.23:444][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2024.03.02-23.06.23:444][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2024.03.02-23.06.23:444][  0]CrashReportCoreLog: DataRouterUrl: https://o1291919.ingest.sentry.io/api/6513339/unreal/4a1a3921f51f4975b4cf8dd19022cb20/
+[2024.03.02-23.06.23:448][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit; note: exit was already requested)
+[2024.03.02-23.06.23:448][  0]LogExit: Preparing to exit.
+[2024.03.02-23.06.23:448][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.03.02-23.06.23:451][  0]LogExit: Object subsystem successfully closed.
+[2024.03.02-23.06.23:457][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2024.03.02-23.06.23:457][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2024.03.02-23.06.23:458][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2024.03.02-23.06.23:459][  0]LogExit: Exiting.
+[2024.03.02-23.06.23:459][  0]LogCore: FUnixPlatformMisc::RequestExit(bForce=false, ReturnCode=143)
+[2024.03.02-23.06.23:489][  0]Log file closed, 03/03/24 08:06:23

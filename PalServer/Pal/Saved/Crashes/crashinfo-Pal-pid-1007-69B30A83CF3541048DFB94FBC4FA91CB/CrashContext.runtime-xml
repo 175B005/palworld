@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>4C662C5B7B0F4C6C9EECEEE014C3CA28</ExecutionGuid>
+		<CrashGUID>UECC-Linux-64A23C103EE74EAA9242C528F3B17EB9_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Hang</CrashType>
+		<ErrorMessage>Hang detected on GameThread: 0x0000000006b8aabb PalServer-Linux-Shipping!ThreadStackWalker(int, siginfo_t*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1034] 0x00007f3bafa54db0 libc.so.6!UnknownFunction(0x54daf) 0x00000000057d29e5 PalServer-Linux-Shipping!USignificanceManager::FManagedObjectInfo::UpdateSignificance(TArray&lt;UE::Math::TTransform&lt;double&gt;, TSizedDefaultAllocator&lt;32&gt; &gt; const&amp;, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/../Plugins/Runtime/SignificanceManager/Source/SignificanceManager/Private/SignificanceManager.cpp:417] Check log for full callstack.</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>1007</ProcessId>
+		<SecondsSinceStart>583</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal port=8211 players=32 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Shipping</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>90795FEF71CD4C0A9C20CCEF52321F42-000003E8</MachineId>
+		<LoginId>90795fef71cd4c0a9c20ccef52321f42-000003e8</LoginId>
+		<HostName>vm-21068fbb-1b.novalocal</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>6</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel Xeon Processor (Icelake)</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor PCI-id: 1234-1111 (1af4-1100)</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>CentOS Stream 9</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>5.14.0-412.el9.x86_64</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>8055869440</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>2147479552</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>PalServer-Linux-Shipping 0x0000000000200000 + 698aabb libc.so 0x00007f3bafa00000 + 54db0 PalServer-Linux-Shipping 0x0000000000200000 + 55d29e5 PalServer-Linux-Shipping 0x0000000000200000 + 3b9a63e PalServer-Linux-Shipping 0x0000000000200000 + 3b99f26 PalServer-Linux-Shipping 0x0000000000200000 + 66d00ff PalServer-Linux-Shipping 0x0000000000200000 + 66cfec9 PalServer-Linux-Shipping 0x0000000000200000 + 9ab2942 PalServer-Linux-Shipping 0x0000000000200000 + 67d4a5c PalServer-Linux-Shipping 0x0000000000200000 + 67d42e0 PalServer-Linux-Shipping 0x0000000000200000 + 67d39a8 PalServer-Linux-Shipping 0x0000000000200000 + 9aaec8e PalServer-Linux-Shipping 0x0000000000200000 + 9aab9d5 PalServer-Linux-Shipping 0x0000000000200000 + 95a94db PalServer-Linux-Shipping 0x0000000000200000 + 93f22a4 PalServer-Linux-Shipping 0x0000000000200000 + 3b3b733 PalServer-Linux-Shipping 0x0000000000200000 + 3b3c30a PalServer-Linux-Shipping 0x0000000000200000 + 9f2bac0 libc.so 0x00007f3bafa00000 + 3feb0 libc.so 0x00007f3bafa00000 + 3ff60 PalServer-Linux-Shipping 0x0000000000200000 + 3b3a029</PCallStack>
+		<PCallStackHash>C3EA705D0106B30FFA826DC61A525DEFCA1E8A32</PCallStackHash>
+		<TimeOfCrash>638552854794920000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [CentOS Stream 9 5.14.0-412.el9.x86_64 64b]</PlatformFullName>
+		<CPUBrand>Intel Xeon Processor (Icelake)</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>0</CrashSignal>
+		<CrashSignalName>Unknown signal 0</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+		<NumClients>3</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.3.2.55495&quot;, &quot;callstackhash&quot;: &quot;DA39A3EE5E6B4B0D3255BFEF95601890AFD80709&quot;,&quot;revision&quot;: &quot;55495&quot;, &quot;build_config&quot;: &quot;shipping&quot;, &quot;platform&quot;: &quot;Linux&quot;, &quot;players&quot;: &quot;3&quot;, &quot;session_id&quot;: &quot;steam_null_1719687977&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>

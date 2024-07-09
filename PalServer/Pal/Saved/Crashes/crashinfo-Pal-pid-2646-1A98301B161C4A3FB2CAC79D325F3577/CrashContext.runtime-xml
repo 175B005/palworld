@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>EC905640C91A4C67AD76BE5D75A6B749</ExecutionGuid>
+		<CrashGUID>UECC-Linux-C8469BFE5B9D46EE8B86CA6BB8332243_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Caught signal 11 Segmentation fault</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>2646</ProcessId>
+		<SecondsSinceStart>4229</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Test</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal port=8211 players=32 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>90795FEF71CD4C0A9C20CCEF52321F42-000003E8</MachineId>
+		<LoginId>90795fef71cd4c0a9c20ccef52321f42-000003e8</LoginId>
+		<HostName>vm-21068fbb-1b.novalocal</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>6</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel Xeon Processor (Icelake)</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor PCI-id: 1234-1111 (1af4-1100)</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>CentOS Stream 9</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>5.14.0-412.el9.x86_64</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>8055877632</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>2147479552</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>697720832</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>2144309248</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>6592331776</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>6787145728</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>11058507776</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>11302555648</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>PalServer-Linux-Test!TMulticastScriptDelegate&lt;FWeakObjectPtr&gt;::Remove(TScriptDelegate&lt;FWeakObjectPtr&gt; const&amp;) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/UObject/ScriptDelegates.h:359]
+PalServer-Linux-Test!UObject::execRemoveMulticastDelegate(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:3389]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction&lt;void (*)(UObject*, FFrame&amp;, void*)&gt;(UObject*, UFunction*, FFrame&amp;, void*, void (*)(UObject*, FFrame&amp;, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction&lt;void (*)(UObject*, FFrame&amp;, void*)&gt;(UObject*, UFunction*, FFrame&amp;, void*, void (*)(UObject*, FFrame&amp;, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction&lt;void (*)(UObject*, FFrame&amp;, void*)&gt;(UObject*, UFunction*, FFrame&amp;, void*, void (*)(UObject*, FFrame&amp;, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::ProcessEvent(UFunction*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2125]
+PalServer-Linux-Test!UPawnAction_BlueprintBase::OnFinished(EPawnActionResult::Type) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/AIModule/Private/Actions/PawnAction_BlueprintBase.cpp:73]
+PalServer-Linux-Test!UPalAIActionBase::OnFinished(EPawnActionResult::Type) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAIActionBase.cpp:189]
+PalServer-Linux-Test!UPawnActionsComponent::TickComponent(float, ELevelTick, FActorComponentTickFunction*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/AIModule/Private/Actions/PawnActionsComponent.cpp:319]
+PalServer-Linux-Test!APalAIController::OnUnPossess() [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAIController.cpp:225]
+PalServer-Linux-Test!AController::UnPossess() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Controller.cpp:384]
+PalServer-Linux-Test!AController::PawnPendingDestroy(APawn*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Controller.cpp:421]
+PalServer-Linux-Test!APawn::DetachFromControllerPendingDestroy() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:1049]
+PalServer-Linux-Test!APawn::Destroyed() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:499]
+PalServer-Linux-Test!UWorld::DestroyActor(AActor*, bool, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelActor.cpp:872]
+PalServer-Linux-Test!AActor::Destroy(bool, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4594]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::DespawnIndividualActor_ToServer_Implementation(FPalInstanceID, FGuid) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/Component/PalNetworkIndividualComponent.cpp:415]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::execDespawnIndividualActor_ToServer(UObject*, FFrame&amp;, void*) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalNetworkIndividualComponent.gen.cpp:156]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::ProcessEvent(UFunction*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2125]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::DespawnIndividualActor_ToServer(FPalInstanceID, FGuid) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalNetworkIndividualComponent.gen.cpp:605]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::DespawnIndividualActor(FPalInstanceID const&amp;, TFunction&lt;void (FPalInstanceID)&gt;) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/Component/PalNetworkIndividualComponent.cpp:118]
+PalServer-Linux-Test!UPalCharacterManager::DespawnCharacterByHandle(UPalIndividualCharacterHandle*, UPalCharacterManager::FIndividualIDCallback) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalCharacterManager.cpp:278]
+PalServer-Linux-Test!UPalCharacterManager::execDespawnCharacterByHandle(UObject*, FFrame&amp;, void*) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalCharacterManager.gen.cpp:246]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::CallFunction(FFrame&amp;, void*, UFunction*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1129]
+PalServer-Linux-Test!UObject::ProcessContextOpcode(FFrame&amp;, void*, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:3136]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction&lt;void (*)(UObject*, FFrame&amp;, void*)&gt;(UObject*, UFunction*, FFrame&amp;, void*, void (*)(UObject*, FFrame&amp;, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&amp;, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::ProcessEvent(UFunction*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2125]
+PalServer-Linux-Test!APalNPCSpawnerBase::BlueprintTick_Despawning(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalNPCSpawnerBase.gen.cpp:769]
+PalServer-Linux-Test!APalNPCSpawnerBase::Tick_Despawning(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalNPCSpawnerBase.cpp:1004]
+PalServer-Linux-Test!TGraphTask&lt;FPalNPCSpawnerMainThreadTask&gt;::ExecuteTask(TArray&lt;FBaseGraphTask*, TSizedDefaultAllocator&lt;32&gt; &gt;&amp;, ENamedThreads::Type, bool) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:1348]
+PalServer-Linux-Test!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:760]
+PalServer-Linux-Test!FNamedTaskThread::ProcessTasksUntilQuit(int) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:648]
+PalServer-Linux-Test!FTaskGraphCompatibilityImplementation::WaitUntilTasksComplete(TArray&lt;TRefCountPtr&lt;FGraphEvent&gt;, TSizedInlineAllocator&lt;4u, 32, TSizedDefaultAllocator&lt;32&gt; &gt; &gt; const&amp;, ENamedThreads::Type) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:2203]
+PalServer-Linux-Test!FTickTaskSequencer::ReleaseTickGroup(ETickingGroup, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/TickTaskManager.cpp:565]
+PalServer-Linux-Test!FTickTaskManager::RunTickGroup(ETickingGroup, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/TickTaskManager.cpp:1592]
+PalServer-Linux-Test!UWorld::Tick(ELevelTick, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelTick.cpp:1559]
+PalServer-Linux-Test!UGameEngine::Tick(float, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameEngine.cpp:1775]
+PalServer-Linux-Test!FEngineLoop::Tick() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5363]
+PalServer-Linux-Test!GuardedMain(char16_t const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204]
+PalServer-Linux-Test!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x3feaf)
+libc.so.6!__libc_start_main(+0x7f)
+PalServer-Linux-Test!_start()
+</CallStack>
+		<PCallStack>PalServer-Linux-Test 0x0000000000200000 + 6d477de PalServer-Linux-Test 0x0000000000200000 + 6d7e144 PalServer-Linux-Test 0x0000000000200000 + 6d785a5 PalServer-Linux-Test 0x0000000000200000 + 6d78294 PalServer-Linux-Test 0x0000000000200000 + 6d785a5 PalServer-Linux-Test 0x0000000000200000 + 6d78294 PalServer-Linux-Test 0x0000000000200000 + 6d785a5 PalServer-Linux-Test 0x0000000000200000 + 6d78294 PalServer-Linux-Test 0x0000000000200000 + 6d785a5 PalServer-Linux-Test 0x0000000000200000 + 6c10157 PalServer-Linux-Test 0x0000000000200000 + 6d79516 PalServer-Linux-Test 0x0000000000200000 + a689246 PalServer-Linux-Test 0x0000000000200000 + 657073d PalServer-Linux-Test 0x0000000000200000 + a6879c5 PalServer-Linux-Test 0x0000000000200000 + 659532f PalServer-Linux-Test 0x0000000000200000 + 98c5a55 PalServer-Linux-Test 0x0000000000200000 + 98c7d55 PalServer-Linux-Test 0x0000000000200000 + 9d4d627 PalServer-Linux-Test 0x0000000000200000 + 9d4c06d PalServer-Linux-Test 0x0000000000200000 + 9b4a471 PalServer-Linux-Test 0x0000000000200000 + 952eede PalServer-Linux-Test 0x0000000000200000 + 65150ce PalServer-Linux-Test 0x0000000000200000 + 638f611 PalServer-Linux-Test 0x0000000000200000 + 6c10157 PalServer-Linux-Test 0x0000000000200000 + 6d79516 PalServer-Linux-Test 0x0000000000200000 + 6392863 PalServer-Linux-Test 0x0000000000200000 + 651206c PalServer-Linux-Test 0x0000000000200000 + 66148b9 PalServer-Linux-Test 0x0000000000200000 + 627dec1 PalServer-Linux-Test 0x0000000000200000 + 6c10157 PalServer-Linux-Test 0x0000000000200000 + 6d78057 PalServer-Linux-Test 0x0000000000200000 + 6d7cf45 PalServer-Linux-Test 0x0000000000200000 + 6d785a5 PalServer-Linux-Test 0x0000000000200000 + 6d78294 PalServer-Linux-Test 0x0000000000200000 + 6d785a5 PalServer-Linux-Test 0x0000000000200000 + 6c10157 PalServer-Linux-Test 0x0000000000200000 + 6d79516 PalServer-Linux-Test 0x0000000000200000 + 63b151e PalServer-Linux-Test 0x0000000000200000 + 67927d9 PalServer-Linux-Test 0x0000000000200000 + 67bed98 PalServer-Linux-Test 0x0000000000200000 + 69194f7 PalServer-Linux-Test 0x0000000000200000 + 6918d90 PalServer-Linux-Test 0x0000000000200000 + 691839f PalServer-Linux-Test 0x0000000000200000 + a0f9b25 PalServer-Linux-Test 0x0000000000200000 + a0f6835 PalServer-Linux-Test 0x0000000000200000 + 9b6e842 PalServer-Linux-Test 0x0000000000200000 + 99a71d4 PalServer-Linux-Test 0x0000000000200000 + 3d3e7be PalServer-Linux-Test 0x0000000000200000 + 3d3f8ca PalServer-Linux-Test 0x0000000000200000 + a79ae58 libc.so 0x00007f2db8a00000 + 3feb0 libc.so 0x00007f2db8a00000 + 3ff60 PalServer-Linux-Test 0x0000000000200000 + 3d3d029</PCallStack>
+		<PCallStackHash>D3B92CD6C27DD8D85A8A2FB06D18DEEA4E3C9C15</PCallStackHash>
+		<TimeOfCrash>638449740052270000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [CentOS Stream 9 5.14.0-412.el9.x86_64 64b]</PlatformFullName>
+		<CPUBrand>Intel Xeon Processor (Icelake)</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>11</CrashSignal>
+		<CrashSignalName>Segmentation fault</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+		<NumClients>2</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.5.1&quot;, &quot;callstackhash&quot;: &quot;3C9281D7B523C78DDB0F0DA1ECAE335495499E20&quot;,&quot;revision&quot;: &quot;48614&quot;, &quot;platform&quot;: &quot;Linux&quot;, &quot;players&quot;: &quot;2&quot;, &quot;session_id&quot;: &quot;steam_null_1709372976&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>

@@ -1,0 +1,72 @@
+Generating report for minidump
+
+Application version 5.1.1.0
+ ... built from changelist 0
+
+OS version Linux 5.14.0-412.el9.x86_64 (network name: vm-21068fbb-1b.novalocal)
+Running 6 x86_64 processors (6 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+PalServer-Linux-Test!TMulticastScriptDelegate<FWeakObjectPtr>::Remove(TScriptDelegate<FWeakObjectPtr> const&) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/UObject/ScriptDelegates.h:359]
+PalServer-Linux-Test!UObject::execRemoveMulticastDelegate(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:3389]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction<void (*)(UObject*, FFrame&, void*)>(UObject*, UFunction*, FFrame&, void*, void (*)(UObject*, FFrame&, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction<void (*)(UObject*, FFrame&, void*)>(UObject*, UFunction*, FFrame&, void*, void (*)(UObject*, FFrame&, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction<void (*)(UObject*, FFrame&, void*)>(UObject*, UFunction*, FFrame&, void*, void (*)(UObject*, FFrame&, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::ProcessEvent(UFunction*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2125]
+PalServer-Linux-Test!UPawnAction_BlueprintBase::OnFinished(EPawnActionResult::Type) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/AIModule/Private/Actions/PawnAction_BlueprintBase.cpp:73]
+PalServer-Linux-Test!UPalAIActionBase::OnFinished(EPawnActionResult::Type) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAIActionBase.cpp:189]
+PalServer-Linux-Test!UPawnActionsComponent::TickComponent(float, ELevelTick, FActorComponentTickFunction*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/AIModule/Private/Actions/PawnActionsComponent.cpp:319]
+PalServer-Linux-Test!APalAIController::OnUnPossess() [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAIController.cpp:225]
+PalServer-Linux-Test!AController::UnPossess() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Controller.cpp:384]
+PalServer-Linux-Test!AController::PawnPendingDestroy(APawn*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Controller.cpp:421]
+PalServer-Linux-Test!APawn::DetachFromControllerPendingDestroy() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:1049]
+PalServer-Linux-Test!APawn::Destroyed() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:499]
+PalServer-Linux-Test!UWorld::DestroyActor(AActor*, bool, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelActor.cpp:872]
+PalServer-Linux-Test!AActor::Destroy(bool, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4594]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::DespawnIndividualActor_ToServer_Implementation(FPalInstanceID, FGuid) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/Component/PalNetworkIndividualComponent.cpp:415]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::execDespawnIndividualActor_ToServer(UObject*, FFrame&, void*) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalNetworkIndividualComponent.gen.cpp:156]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::ProcessEvent(UFunction*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2125]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::DespawnIndividualActor_ToServer(FPalInstanceID, FGuid) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalNetworkIndividualComponent.gen.cpp:605]
+PalServer-Linux-Test!UPalNetworkIndividualComponent::DespawnIndividualActor(FPalInstanceID const&, TFunction<void (FPalInstanceID)>) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/Component/PalNetworkIndividualComponent.cpp:118]
+PalServer-Linux-Test!UPalCharacterManager::DespawnCharacterByHandle(UPalIndividualCharacterHandle*, UPalCharacterManager::FIndividualIDCallback) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalCharacterManager.cpp:278]
+PalServer-Linux-Test!UPalCharacterManager::execDespawnCharacterByHandle(UObject*, FFrame&, void*) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalCharacterManager.gen.cpp:246]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::CallFunction(FFrame&, void*, UFunction*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1129]
+PalServer-Linux-Test!UObject::ProcessContextOpcode(FFrame&, void*, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:3136]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!void ProcessScriptFunction<void (*)(UObject*, FFrame&, void*)>(UObject*, UFunction*, FFrame&, void*, void (*)(UObject*, FFrame&, void*)) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1026]
+PalServer-Linux-Test!ProcessLocalScriptFunction(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1226]
+PalServer-Linux-Test!UFunction::Invoke(UObject*, FFrame&, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6455]
+PalServer-Linux-Test!UObject::ProcessEvent(UFunction*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2125]
+PalServer-Linux-Test!APalNPCSpawnerBase::BlueprintTick_Despawning(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Intermediate/Build/Linux/B4D820EA/UnrealServer/Inc/Pal/UHT/PalNPCSpawnerBase.gen.cpp:769]
+PalServer-Linux-Test!APalNPCSpawnerBase::Tick_Despawning(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalNPCSpawnerBase.cpp:1004]
+PalServer-Linux-Test!TGraphTask<FPalNPCSpawnerMainThreadTask>::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type, bool) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:1348]
+PalServer-Linux-Test!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:760]
+PalServer-Linux-Test!FNamedTaskThread::ProcessTasksUntilQuit(int) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:648]
+PalServer-Linux-Test!FTaskGraphCompatibilityImplementation::WaitUntilTasksComplete(TArray<TRefCountPtr<FGraphEvent>, TSizedInlineAllocator<4u, 32, TSizedDefaultAllocator<32> > > const&, ENamedThreads::Type) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:2203]
+PalServer-Linux-Test!FTickTaskSequencer::ReleaseTickGroup(ETickingGroup, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/TickTaskManager.cpp:565]
+PalServer-Linux-Test!FTickTaskManager::RunTickGroup(ETickingGroup, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/TickTaskManager.cpp:1592]
+PalServer-Linux-Test!UWorld::Tick(ELevelTick, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelTick.cpp:1559]
+PalServer-Linux-Test!UGameEngine::Tick(float, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameEngine.cpp:1775]
+PalServer-Linux-Test!FEngineLoop::Tick() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5363]
+PalServer-Linux-Test!GuardedMain(char16_t const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204]
+PalServer-Linux-Test!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x3feaf)
+libc.so.6!__libc_start_main(+0x7f)
+PalServer-Linux-Test!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

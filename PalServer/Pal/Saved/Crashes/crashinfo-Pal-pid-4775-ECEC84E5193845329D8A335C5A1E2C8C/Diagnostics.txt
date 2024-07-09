@@ -1,0 +1,27 @@
+Generating report for minidump
+
+Application version 5.1.1.0
+ ... built from changelist 0
+
+OS version Linux 5.14.0-412.el9.x86_64 (network name: vm-21068fbb-1b.novalocal)
+Running 6 x86_64 processors (6 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000010"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+PalServer-Linux-Shipping!(anonymous namespace)::GatherCallstackFromThread(ThreadStackUserData&, unsigned long long) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:809]
+PalServer-Linux-Shipping!FUnixPlatformStackWalk::CaptureThreadStackBackTrace(unsigned long long, unsigned long long*, unsigned int, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:835]
+PalServer-Linux-Shipping!FThreadHeartBeat::OnHang(double, unsigned int) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/ThreadHeartBeat.cpp:226]
+PalServer-Linux-Shipping!FThreadHeartBeat::Run() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/ThreadHeartBeat.cpp:342]
+PalServer-Linux-Shipping!FRunnableThreadPThread::Run() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+PalServer-Linux-Shipping!FRunnableThreadPThread::_ThreadProc(void*) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libc.so.6!UnknownFunction(0xa1911)
+libc.so.6!UnknownFunction(0x3f44f)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

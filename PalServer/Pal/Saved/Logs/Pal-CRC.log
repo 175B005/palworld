@@ -1,0 +1,56 @@
+﻿Log file open, 07/06/24 22:57:21
+LogPakFile: Display: Found Pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak.
+LogPakFile: Display: Mounted Pak file '../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak', mount point: '../../../Engine/'
+LogInit: Build: ++UE5+Release-5.1-CL-0
+LogInit: Engine Version: 5.1.1-0+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-0+++UE5+Release-5.1
+LogInit: Net CL: 0
+LogInit: OS: CentOS Stream 9 (5.14.0-412.el9.x86_64), CPU: Intel Xeon Processor (Icelake), GPU: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+LogInit: Compiled (64-bit): Jun 12 2024 15:50:14
+LogInit: Compiled with Clang: 13.0.1 (https://github.com/llvm/llvm-project 75e33f71c2dae584b13a7d1186ae0a038ba98838)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line:  -Abslog="/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Logs/Pal-CRC.log" -Unattended -ImplicitSend "/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-4971-53B72066E550494F98E1C10A47A06B49/" -unattended
+LogInit: Base Directory: /home/steam/Steam/steamapps/common/PalServer/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.07.06-14.10.40:762][  0]LogInit: Unix hardware info:
+[2024.07.06-14.10.41:790][  0]LogInit:  - we are the first instance of this executable
+[2024.07.06-14.10.42:723][  0]LogInit:  - this process' id (pid) is 5639, parent process' id (ppid) is 4971
+[2024.07.06-14.10.43:983][  0]LogInit:  - we are not running under debugger
+[2024.07.06-14.10.45:000][  0]LogInit:  - machine network name is 'vm-21068fbb-1b.novalocal'
+[2024.07.06-14.10.46:496][  0]LogInit:  - user name is 'steam' (steam)
+[2024.07.06-14.10.47:396][  0]LogInit:  - we're logged in locally
+[2024.07.06-14.10.48:510][  0]LogInit:  - we're running with rendering
+[2024.07.06-14.10.49:398][  0]LogInit:  - CPU: GenuineIntel 'Intel Xeon Processor (Icelake)' (signature: 0x80660)
+[2024.07.06-14.10.50:978][  0]LogInit:  - Number of physical cores available for the process: 6
+[2024.07.06-14.10.52:287][  0]LogInit:  - Number of logical cores available for the process: 6
+[2024.07.06-14.10.53:450][  0]LogInit:  - Cache line size: 64
+[2024.07.06-14.10.54:626][  0]LogInit:  - GPU Brand Info: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+[2024.07.06-14.10.55:510][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.07.06-14.10.56:553][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2024.07.06-14.10.57:603][  0]LogInit:  - This is an internal build.
+[2024.07.06-14.10.59:033][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.07.06-14.10.59:761][  0]LogInit: Unix-specific commandline switches:
+[2024.07.06-14.11.00:447][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.07.06-14.11.01:443][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.07.06-14.11.02:399][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.07.06-14.11.02:637][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.07.06-14.11.03:489][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.07.06-14.11.04:237][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2024.07.06-14.11.05:421][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2024.07.06-14.11.06:216][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2024.07.06-14.11.07:672][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2024.07.06-14.11.08:975][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2024.07.06-14.11.11:190][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2024.07.06-14.11.12:803][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2024.07.06-14.11.14:101][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2024.07.06-14.11.15:982][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7682 MB, 7867060 KB, 8055869440 bytes)
+[2024.07.06-14.11.17:667][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2024.07.06-14.11.19:618][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2024.07.06-14.11.21:497][  0]LogInit:  - PageSize 4096
+[2024.07.06-14.11.24:119][  0]LogInit:  - BinnedPageSize 65536

@@ -1,0 +1,52 @@
+﻿Log file open, 06/30/24 04:17:57
+LogPakFile: Display: Found Pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak.
+LogPakFile: Display: Mounted Pak file '../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak', mount point: '../../../Engine/'
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Build: ++UE5+Release-5.1-CL-0
+LogInit: Engine Version: 5.1.1-0+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-0+++UE5+Release-5.1
+LogInit: Net CL: 0
+LogInit: OS: CentOS Stream 9 (5.14.0-412.el9.x86_64), CPU: Intel Xeon Processor (Icelake), GPU: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+LogInit: Compiled (64-bit): Jun 12 2024 15:50:14
+LogInit: Compiled with Clang: 13.0.1 (https://github.com/llvm/llvm-project 75e33f71c2dae584b13a7d1186ae0a038ba98838)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line:  -Abslog="/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Logs/Pal-CRC.log" -Unattended -ImplicitSend "/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-1007-69B30A83CF3541048DFB94FBC4FA91CB/" -unattended
+LogInit: Base Directory: /home/steam/Steam/steamapps/common/PalServer/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.06.29-19.17.59:471][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.06.29-19.17.59:472][  0]LogInit: Unix hardware info:
+[2024.06.29-19.17.59:472][  0]LogInit:  - we are the first instance of this executable
+[2024.06.29-19.17.59:472][  0]LogInit:  - this process' id (pid) is 1455, parent process' id (ppid) is 1007
+[2024.06.29-19.17.59:472][  0]LogInit:  - we are not running under debugger
+[2024.06.29-19.17.59:472][  0]LogInit:  - machine network name is 'vm-21068fbb-1b.novalocal'
+[2024.06.29-19.17.59:473][  0]LogInit:  - user name is 'steam' (steam)
+[2024.06.29-19.17.59:473][  0]LogInit:  - we're logged in locally
+[2024.06.29-19.17.59:473][  0]LogInit:  - we're running with rendering
+[2024.06.29-19.17.59:473][  0]LogInit:  - CPU: GenuineIntel 'Intel Xeon Processor (Icelake)' (signature: 0x80660)
+[2024.06.29-19.17.59:473][  0]LogInit:  - Number of physical cores available for the process: 6
+[2024.06.29-19.17.59:473][  0]LogInit:  - Number of logical cores available for the process: 6
+[2024.06.29-19.17.59:474][  0]LogInit:  - Cache line size: 64
+[2024.06.29-19.17.59:474][  0]LogInit:  - GPU Brand Info: UnknownVendor PCI-id: 1234-1111 (1af4-1100)
+[2024.06.29-19.17.59:474][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.06.29-19.17.59:474][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2024.06.29-19.17.59:474][  0]LogInit:  - This is an internal build.
+[2024.06.29-19.17.59:474][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.06.29-19.17.59:474][  0]LogInit: Unix-specific commandline switches:
+[2024.06.29-19.17.59:474][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.06.29-19.17.59:474][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.06.29-19.17.59:474][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.06.29-19.17.59:474][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.06.29-19.17.59:474][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.06.29-19.17.59:474][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2024.06.29-19.17.59:474][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2024.06.29-19.17.59:474][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2024.06.29-19.17.59:474][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2024.06.29-19.17.59:474][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2024.06.29-19.17.59:474][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2024.06.29-19.17.59:474][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2024.06.29-19.17.59:

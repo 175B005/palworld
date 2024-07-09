@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>540CF89A56D848C6AFFAB39110E6CE44</ExecutionGuid>
+<CrashGUID>UECC-Linux-BFC11ACCEBA340F6895D935FB0BEBD60_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Caught signal 11 Segmentation fault</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>22776</ProcessId>
+<SecondsSinceStart>10301</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Pal</GameName>
+<ExecutableName>PalServer-Linux-Test</ExecutableName>
+<BuildConfiguration>Test</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>LinuxServer</PlatformName>
+<PlatformNameIni>Linux</PlatformNameIni>
+<EngineMode>Server</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+<CommandLine> Pal port=8211 players=32 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en_US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>/home/steam/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+<RootDir>/home/steam/Steam/steamapps/common/PalServer/</RootDir>
+<MachineId>90795FEF71CD4C0A9C20CCEF52321F42-000003E8</MachineId>
+<LoginId>90795fef71cd4c0a9c20ccef52321f42-000003e8</LoginId>
+<HostName>vm-21068fbb-1b.novalocal</HostName>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>6</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel Xeon Processor (Icelake)</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>UnknownVendor PCI-id: 1234-1111 (1af4-1100)</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>CentOS Stream 9</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>5.14.0-412.el9.x86_64</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8055877632</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>2147479552</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>24350720</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>86016</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>7737290752</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>7773110272</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>14906830848</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>15049613312</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+ PalServer-Linux-Test 0x0000000000200000 + 6b238d8         
+ PalServer-Linux-Test 0x0000000000200000 + 6b23990         
+ PalServer-Linux-Test 0x0000000000200000 + 6996dc0         
+ PalServer-Linux-Test 0x0000000000200000 + 6997506         
+ PalServer-Linux-Test 0x0000000000200000 + 6995bc4         
+ PalServer-Linux-Test 0x0000000000200000 + 69684f0         
+              libc.so 0x00007efca7600000 + a1912           
+              libc.so 0x00007efca7600000 + 3f450           
+</PCallStack>
+<PCallStackHash>355A5CE7891B69892C3DD5AA412D7BBC5A1951BE</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<CrashSignal>11</CrashSignal>
+<CrashSignalName>Segmentation fault</CrashSignalName>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+<RHI.RHIName>NullRHI</RHI.RHIName>
+<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+<NumClients>3</NumClients>
+</EngineData>
+<GameData>
+<__sentry>{
+	&quot;tags&quot;:
+	{
+		&quot;version&quot;: &quot;0.1.5.1&quot;,
+		&quot;revision&quot;: &quot;48614&quot;,
+		&quot;platform&quot;: &quot;Linux&quot;,
+		&quot;players&quot;: &quot;3&quot;,
+		&quot;session_id&quot;: &quot;steam_null_1710595388&quot;
+	}
+}</__sentry>
+</GameData>
+</FGenericCrashContext>
